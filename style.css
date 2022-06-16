@@ -254,7 +254,9 @@ body {
 
 /* advertising-over */
 
-
+.comment{
+    position: relative;
+}
 .comment-menu {
     display: flex;
     justify-content: space-between;
@@ -382,4 +384,51 @@ input[type=text]{
    position: absolute;
    right:0;
 
+}
+
+
+
+/* footer-over */
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFB742;
+    font-family: "Roboto" sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: none;
+    color: black;
+    padding: 57px 94px;
+    position: absolute;
+    top: 125px;
+    left: 50px;
+    border-radius: 20px;
+
+
+}
+
+
+
+.project{
+    font-size: 35px;
+    font-family: "Inter" sans-serif;
+    font-weight: 900;
+}
+
+.working{
+    margin: 0 100px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.button-absolute{
+    padding: 12px 40px;
+    border: 2px solid black;
+    border-radius: 50px;
 }
